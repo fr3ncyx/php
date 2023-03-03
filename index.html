@@ -4,14 +4,30 @@
     <title>Contact us</title>
   </head>
   <body>
-    <form action="mail.php" method="post">
-      <input type="text" name="name" placeholder="Your name" required>
-      <input type="email" name="email adress" placeholder="Your email" required>
-      <input type="text" name="mobile" placeholder="mobile number">
+    <form method="post" name="emailContact">
+      <div class="">
+        <div class="">
+          <label>Name <em>*</em></label>
+          <input type="text" name="userName" required>
+        </div>
 
-      <input type="text" name="message" placeholder="message"required>
+        <div class="">
+          <label> <em>Email</em> <em>*</em></label>
+          <input type="email" name="userEmail" required>
+        </div>
 
-      <button type="submit">Submit</button>
+        <div class="">
+          <label>Message <em>*</em></label>
+          <input type="text" name="userMessage" required>
+        </div>
+
+        <div class="">
+          <input type="submit" name="send" value="Submit">
+        </div>
+        <div class="">
+          <strong>success</strong>
+        </div>
+      </div>
     </form>
   </body>
 </html>
