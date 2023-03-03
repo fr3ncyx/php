@@ -18,8 +18,8 @@
 
     if (mail($toEmail, $userName, $mailHeaders)) {
       $message = "Your Information is Received Successfully."
-    }
-  }
+}
+}
  ?>
     <div class="">
       <div class="">
